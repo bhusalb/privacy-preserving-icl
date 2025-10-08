@@ -1,0 +1,12 @@
+.idea
+.venv
+__pycache__
+.ipynb_checkpoints
+.DS_Store
+*.pyc
+env/
+env_*/
+venv/
+logs/
+jsonl/
+*.lock

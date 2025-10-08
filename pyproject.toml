@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "privacy-preserving-icl"
+version = "0.1.0"
+description = "Differentially private in-context learning with LLMs."
+authors = [
+    # See paper for full list of authors
+    "AAAI submission <test@test.edu>"
+]
+readme = "README.md"
+packages = [
+    { include = "privacy_preserving_icl", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+datasets = "^2.11.0"
+autodp = "^0.2"
+more-itertools = "^9.1.0"
+scipy = "^1.10.1"
+typer = "^0.9.0"
+numpy = "^1.25.2"
+openai = "^0.28.0"
+pandas = "^2.1.0"
+prv-accountant = "^0.2.0"
+aiohttp = "^3.8.5"
+tqdm = "^4.66.1"
+torch = "^2.7.1"
+transformers = "^4.53.1"
+accelerate = "^1.8.1"
+
+[tool.black]
+skip-magic-trailing-comma = true
+target-version = ["py310"]
+
+[tool.pyright]
+include = [
+  "src",
+  "tests",
+]
+reportUnnecessaryCast = "error"
+reportUnnecessaryTypeIgnoreComment = "error"
+
+[tool.ruff]
+# See hhttps://beta.ruff.rs/docs/rules/ for a list of rules.
+# This list is kept in the same order as the documentation.
+select = [
+  "E",
+  "F",
+  "W",
+  "I",
+  "UP",
+  "B",
+  "C4",
+  "RUF",
+]
+ignore = [
+  # Do not perform function call in argument defaults	
+  "B008",
+  # Line too long
+  "E501",
+]
+target-version = "py310"
+src = [
+  "src"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
