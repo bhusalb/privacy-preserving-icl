@@ -1,5 +1,11 @@
 # Privacy Preserving In-Context-Learning Framework for Large Language Models
-This is a codebase to perform privacy-preserving in-context learning.
+This is a codebase to perform privacy-preserving in-context learning. 
+
+Read our AAAI 2026 paper:
+Privacy Preserving In-Context-Learning Framework for Large Language Models https://arxiv.org/abs/2509.13625
+
+Authors: Bishnu Bhusal, Manoj Acharya, Ramneet Kaur, Colin Samplawski, Anirban Roy, Adam D. Cobb, Rohit Chadha, Susmit Jha
+
 
 ## Experiments
 For AGNEWS, see `run_agnews.sh`
