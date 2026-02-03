@@ -40,3 +40,15 @@ Note: Due to the randomness in generations caused by DP noise, the results may b
 This project is built upon the foundation of [Privacy-Preserving In-Context Learning with Differentially Private Few-Shot Generation](https://github.com/microsoft/dp-few-shot-generation).
 We would like to thank the contributors and maintainers of the original repository for their valuable work.
 
+## Cite our work
+
+```
+@article{bhusal2025privacy,
+  title={Privacy Preserving In-Context-Learning Framework for Large Language Models},
+  author={Bhusal, Bishnu and Acharya, Manoj and Kaur, Ramneet and Samplawski, Colin and Roy, Anirban and Cobb, Adam D and Chadha, Rohit and Jha, Susmit},
+  journal={AAAI},
+  year={2026}
+}
+```
+
+
