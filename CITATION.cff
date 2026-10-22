@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Privacy Preserving In-Context-Learning Framework for Large Language Models (code)"
+type: software
+repository-code: "https://github.com/bhusalb/privacy-preserving-icl"
+authors:
+  - family-names: Bhusal
+    given-names: Bishnu
+    orcid: "https://orcid.org/0000-0001-7522-5878"
+  - family-names: Acharya
+    given-names: Manoj
+  - family-names: Kaur
+    given-names: Ramneet
+  - family-names: Samplawski
+    given-names: Colin
+  - family-names: Roy
+    given-names: Anirban
+  - family-names: Cobb
+    given-names: Adam D.
+  - family-names: Chadha
+    given-names: Rohit
+  - family-names: Jha
+    given-names: Susmit
+preferred-citation:
+  type: conference-paper
+  title: "Privacy Preserving In-Context-Learning Framework for Large Language Models"
+  authors:
+    - family-names: Bhusal
+      given-names: Bishnu
+    - family-names: Acharya
+      given-names: Manoj
+    - family-names: Kaur
+      given-names: Ramneet
+    - family-names: Samplawski
+      given-names: Colin
+    - family-names: Roy
+      given-names: Anirban
+    - family-names: Cobb
+      given-names: Adam D.
+    - family-names: Chadha
+      given-names: Rohit
+    - family-names: Jha
+      given-names: Susmit
+  collection-title: "Proceedings of the AAAI Conference on Artificial Intelligence"
+  volume: 40
+  issue: 42
+  start: 35303
+  end: 35312
+  year: 2026
+  doi: "10.1609/aaai.v40i42.40838"
+  url: "https://arxiv.org/abs/2509.13625"
